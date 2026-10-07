@@ -2,7 +2,10 @@
 
 PRE_*/temp/*
 !PRE_*/temp/.gitkeep
-
+**/P[0-9][0-9][0-9]_*/temp/*
+!**/P[0-9][0-9][0-9]_*/temp/.gitkeep
+**/L[0-9][0-9][0-9]_*/temp/*
+!**/L[0-9][0-9][0-9]_*/temp/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
